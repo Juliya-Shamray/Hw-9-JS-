@@ -1,0 +1,11 @@
+.user-card {
+    font-family: Arial;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 300px;
+    background-color: aqua;
+    list-style: none;
+    padding: 10px;
+    transition: background 2s;
+
+}
