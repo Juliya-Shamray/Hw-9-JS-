@@ -6,9 +6,9 @@ var main = document.querySelector("#card-item")
 
 main.className = "user-card"
 
-user.show = function (nameid) {
+user.show = function (nameId) {
 
-    var card = document.getElementById(nameid)
+    var card = document.getElementById(nameId)
 
     card.innerHTML = `<li>Id: ${this.id}</li> <li>Name: ${this.name}</li> <li>Age: ${this.age}</li> 
     <li>Email: ${this.email}</li> <li>City: ${this.city}</li>`
